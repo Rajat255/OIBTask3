@@ -19,7 +19,8 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	color: #FFF;
-	background-color: var(--dark);
+	background-image: url("2.jpg");
+	background-size: cover;
 }
 
 header {
@@ -62,12 +63,9 @@ input, button {
 }
 
 #new-task-submit {
-	color: var(--pink);
+	color: aliceblue;
 	font-size: 1.25rem;
 	font-weight: 700;
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	cursor: pointer;
 	transition: 0.4s;
 }
